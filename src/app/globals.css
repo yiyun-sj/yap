@@ -8,14 +8,6 @@ body {
 }
 
 @font-face {
-  font-family: 'Magnolia';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/fonts/Magnolia.ttf);
-}
-
-@font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
