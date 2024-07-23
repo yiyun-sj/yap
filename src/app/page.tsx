@@ -28,6 +28,9 @@ export default function Home() {
         <text className='text-xs font-body font-light '>
           <Link href='/legal/terms-of-service'>Terms of Service</Link>
         </text>
+        <text className='text-xs font-body font-light '>
+          <Link href='/legal/eula'>EULA</Link>
+        </text>
       </footer>
     </>
   )
