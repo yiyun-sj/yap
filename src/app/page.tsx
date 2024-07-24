@@ -31,6 +31,13 @@ export default function Home() {
         <text className='text-xs font-body font-light '>
           <Link href='/legal/eula'>EULA</Link>
         </text>
+        <text className='text-xs font-body font-light '>|</text>
+        <text className='text-xs font-body font-light '>
+          <Link href='/support/support'>Support</Link>
+        </text>
+        <text className='text-xs font-body font-light '>
+          <Link href='/support/delete-data'>Delete Data</Link>
+        </text>
       </footer>
     </>
   )

@@ -11,6 +11,11 @@ const config: Config = {
       title: ['Magnolia'],
       body: ['"Roboto"'],
     },
+    colors: {
+      brand: '#F56040',
+      error: '#D32F2F',
+      dark: '#121212',
+    },
   },
   plugins: [],
 }

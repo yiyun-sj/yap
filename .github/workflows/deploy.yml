@@ -62,6 +62,9 @@ jobs:
 
       - name: Build with Next.js
         run: pnpm next build && touch ./out/.nojekyll
+        env:
+          NEXT_PUBLIC_API_URL: ${{ secrets.NEXT_PUBLIC_API_URL }}
+          NEXT_PUBLIC_ANON_KEY: ${{ secrets.NEXT_PUBLIC_ANON_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
