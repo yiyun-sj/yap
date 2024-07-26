@@ -16,6 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
+      <meta
+        name='apple-itunes-app'
+        content='app-id=6569233860, app-argument=yapapp://'
+      />
       <body className='flex min-h-screen flex-col p-4'>{children}</body>
     </html>
   )
