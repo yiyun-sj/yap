@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
@@ -20,6 +21,25 @@ export default function Home() {
         <text className='text-md font-body font-light max-w-2xl'>
           Rate about anything and everything on YAP!
         </text>
+        <a
+          href='https://apps.apple.com/us/app/yap-rate-anything/id6569233860?itsct=apps_box_badge&amp;itscg=30200'
+          style={{
+            overflow: 'hidden',
+            borderRadius: 13,
+            width: 250,
+            height: 83,
+          }}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <Image
+            src='https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-us?size=250x83&amp;releaseDate=1721865600'
+            alt='Download on the App Store'
+            width={250}
+            height={83}
+            style={{ borderRadius: 13 }}
+          />
+        </a>
       </main>
       <footer className='flex justify-center gap-8'>
         <text className='text-xs font-body font-light '>
